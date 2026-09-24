@@ -214,11 +214,11 @@ if __name__ == "__main__":
     result = scrape_article(test_url)
 
     if result.success:
-        print(f"✅ Berhasil!")
+        print(f"Berhasil!")
         print(f"Portal  : {result.source}")
         print(f"Judul   : {result.title}")
         print(f"Panjang : {len(result.content)} karakter")
         print(f"\nPreview konten (200 karakter pertama):")
         print(result.content[:200] + "...")
     else:
-        print(f"❌ Gagal: {result.error_message}")
+        print(f"Gagal: {result.error_message}")

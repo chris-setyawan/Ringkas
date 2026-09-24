@@ -10,3 +10,4 @@ __pycache__/
 .env
 debug_summary.py
 debug_ner.py
+models/finetuned_summarizer/
