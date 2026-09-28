@@ -4,6 +4,8 @@ Final project for COMP6885001 Natural Language Processing, Binus University 2025
 
 This system takes a URL from an Indonesian news portal, scrapes the article content, generates an abstractive summary, and identifies named entities such as people, organizations, and locations mentioned in the article.
 
+There is a demo video at https://youtu.be/punOeU7rH1M.
+
 ## Team
 
 - Christopher Setyawan (2802459670)
